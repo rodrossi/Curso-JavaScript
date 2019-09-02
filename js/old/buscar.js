@@ -1,7 +1,7 @@
 var btn = document.querySelector('#buscar-pacientes');
 
 btn.addEventListener('click', function() {
-    var xhr = new XMLHttpRequest();
+    var xhr = new XMLHttpRequest(); //conexão com back end
 
     xhr.open('get', 'http://127.0.0.1:5500/templates/pacientes.json');
 
